@@ -1,38 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>个人博客</title>
-
-        <style>
-            @import url(style.css);
-        </style>
-    </head>
-    <body>
-        <header>如果秋天已经远去</header>
-        <ul class="pull-left">
-            <li>如果秋天已经远去</li>
-            <li>我会怀念那金色的秋果</li>
-            <li>枯黄的叶和熟透的气味</li>
-            <li>还有直扑我的哀愁似的诉说</li>
-            <li>因为它们来自大地和它在一年里的儿女</li>
-            <li></li>
-            <li>那时，神秘的太阳光浸染了一切</li>
-            <li>甚至遥远的海</li>
-            <li>我不曾见过的所有都拒绝改变</li>
-            <li>想让永恒赐予它们永恒的王冠</li>
-            <li>从它们声喉里倾吐的字符也在空气中传荡</li>
-            <li>向远处，向着深邃的未来</li>
-            <li>一如秋天向着冬天</li>
-            <li></li>
-            <li>如果秋天已经远去</li>
-            <li>让记忆浮上我的心间</li>
-            <li>它们零碎像山村半夜寂静的灯光</li>
-            <li>多少年的秋天被我整合在一起</li>
-            <li>时间在这里被混进同一所房子</li>
-            <li>在灰烬之上</li>
-            <li>脆弱如飞翔的监狱</li>                                                                                                               
-        </ul>
-    </body>
+<!DOCTYPE html> 
+<html>
+<head> 
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Hello, World</title> 
+<style type="text/css"> 
+html{height:100%} 
+body{height:100%;margin:0px;padding:0px} 
+#container{height:100%} 
+</style> 
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=xh3lZmO3OzuQ2yTGI0cc7RE4wv4KKpZ3">
+</script>
+</head> 
+  
+<body> 
+<div id="container"></div>
+<script type="text/javascript">
+var map = new BMapGL.Map("container");
+// 创建地图实例 
+var point = new BMapGL.Point(116.404, 39.915);
+// 创建点坐标 
+map.centerAndZoom(point, 15);
+// 初始化地图，设置中心点坐标和地图级别 
+</script> 
+</body> 
 </html>
-
